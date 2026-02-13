@@ -1,0 +1,107 @@
+{
+  "reel": {
+    "actions": {
+      "logs": {
+        "view": {
+          "name": "View Logs",
+          "description": "View audit log entries"
+        },
+        "export": {
+          "name": "Export Logs",
+          "description": "Export logs to file"
+        },
+        "filter": {
+          "name": "Filter Logs",
+          "description": "Use advanced log filtering"
+        }
+      }
+    },
+    "dashboard": {
+      "title": "Audit Logs",
+      "subtitle": "View and analyze system activity",
+      "no_logs": "No log entries found",
+      "loading": "Loading logs...",
+      "error": "Failed to load logs"
+    },
+    "stats": {
+      "title": "Statistics",
+      "total_entries": "Total Entries",
+      "today": "Today",
+      "this_week": "This Week",
+      "by_severity": "By Severity",
+      "by_module": "By Module"
+    },
+    "filter": {
+      "title": "Filter Logs",
+      "module": "Module",
+      "action": "Action",
+      "severity": "Severity",
+      "actor": "Actor",
+      "date_range": "Date Range",
+      "start_date": "Start Date",
+      "end_date": "End Date",
+      "client": "Client",
+      "search": "Search",
+      "search_placeholder": "Search in log data...",
+      "apply": "Apply Filters",
+      "clear": "Clear Filters",
+      "active_filters": "{{count}} active filter(s)"
+    },
+    "severity": {
+      "DEBUG": "Debug",
+      "INFO": "Info",
+      "WARNING": "Warning",
+      "ERROR": "Error",
+      "CRITICAL": "Critical"
+    },
+    "export": {
+      "title": "Export Logs",
+      "format": "Format",
+      "csv": "CSV",
+      "json": "JSON",
+      "include_data": "Include data payload",
+      "export_button": "Export",
+      "exporting": "Exporting...",
+      "success": "Logs exported successfully",
+      "download": "Download",
+      "error": "Failed to export logs"
+    },
+    "entry": {
+      "details": "Log Details",
+      "id": "ID",
+      "created_at": "Timestamp",
+      "module": "Module",
+      "action": "Action",
+      "severity": "Severity",
+      "actor": "Actor",
+      "actor_email": "Email",
+      "actor_name": "Name",
+      "tenant": "Tenant",
+      "client": "Client",
+      "resource": "Resource",
+      "resource_type": "Type",
+      "resource_id": "ID",
+      "data": "Data",
+      "ip_address": "IP Address",
+      "user_agent": "User Agent",
+      "request_id": "Request ID",
+      "no_data": "No additional data"
+    },
+    "pagination": {
+      "page": "Page",
+      "of": "of",
+      "showing": "Showing",
+      "entries": "entries",
+      "previous": "Previous",
+      "next": "Next",
+      "first": "First",
+      "last": "Last"
+    },
+    "modules": {
+      "guardian": "Authentication",
+      "mentor": "Authorization",
+      "reel": "Audit Logs",
+      "aurora": "Invitations"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "reel": {
+    "actions": {
+      "logs": {
+        "view": {
+          "name": "Visualizar Logs",
+          "description": "Visualizar entradas de log de auditoria"
+        },
+        "export": {
+          "name": "Exportar Logs",
+          "description": "Exportar logs para arquivo"
+        },
+        "filter": {
+          "name": "Filtrar Logs",
+          "description": "Usar filtragem avançada de logs"
+        }
+      }
+    },
+    "dashboard": {
+      "title": "Logs de Auditoria",
+      "subtitle": "Visualize e analise a atividade do sistema",
+      "no_logs": "Nenhuma entrada de log encontrada",
+      "loading": "Carregando logs...",
+      "error": "Falha ao carregar logs"
+    },
+    "stats": {
+      "title": "Estatísticas",
+      "total_entries": "Total de Entradas",
+      "today": "Hoje",
+      "this_week": "Esta Semana",
+      "by_severity": "Por Severidade",
+      "by_module": "Por Módulo"
+    },
+    "filter": {
+      "title": "Filtrar Logs",
+      "module": "Módulo",
+      "action": "Ação",
+      "severity": "Severidade",
+      "actor": "Usuário",
+      "date_range": "Período",
+      "start_date": "Data Inicial",
+      "end_date": "Data Final",
+      "client": "Cliente",
+      "search": "Buscar",
+      "search_placeholder": "Buscar nos dados do log...",
+      "apply": "Aplicar Filtros",
+      "clear": "Limpar Filtros",
+      "active_filters": "{{count}} filtro(s) ativo(s)"
+    },
+    "severity": {
+      "DEBUG": "Debug",
+      "INFO": "Info",
+      "WARNING": "Alerta",
+      "ERROR": "Erro",
+      "CRITICAL": "Crítico"
+    },
+    "export": {
+      "title": "Exportar Logs",
+      "format": "Formato",
+      "csv": "CSV",
+      "json": "JSON",
+      "include_data": "Incluir dados do payload",
+      "export_button": "Exportar",
+      "exporting": "Exportando...",
+      "success": "Logs exportados com sucesso",
+      "download": "Baixar",
+      "error": "Falha ao exportar logs"
+    },
+    "entry": {
+      "details": "Detalhes do Log",
+      "id": "ID",
+      "created_at": "Data/Hora",
+      "module": "Módulo",
+      "action": "Ação",
+      "severity": "Severidade",
+      "actor": "Usuário",
+      "actor_email": "Email",
+      "actor_name": "Nome",
+      "tenant": "Tenant",
+      "client": "Cliente",
+      "resource": "Recurso",
+      "resource_type": "Tipo",
+      "resource_id": "ID",
+      "data": "Dados",
+      "ip_address": "Endereço IP",
+      "user_agent": "User Agent",
+      "request_id": "ID da Requisição",
+      "no_data": "Sem dados adicionais"
+    },
+    "pagination": {
+      "page": "Página",
+      "of": "de",
+      "showing": "Mostrando",
+      "entries": "entradas",
+      "previous": "Anterior",
+      "next": "Próxima",
+      "first": "Primeira",
+      "last": "Última"
+    },
+    "modules": {
+      "guardian": "Autenticação",
+      "mentor": "Autorização",
+      "reel": "Logs de Auditoria",
+      "aurora": "Convites"
+    }
+  }
+}
